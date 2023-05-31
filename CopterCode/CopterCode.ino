@@ -67,10 +67,6 @@ void loop() {
     gps.get_position(&lat, &lon);
   }
 
-  // Получаем значение высоты
-  int Y = analogRead(HeightYPin);
-  // Получаем значени позиции
-  int X = analogRead(PositionXPin);
 
   //   Код взлёта дрона
 
